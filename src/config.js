@@ -1,0 +1,1 @@
+export const url = "http://muslim-pintar.herokuapp.com";

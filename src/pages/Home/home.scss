@@ -1,0 +1,100 @@
+.home {
+    .wrapper {
+        padding: 80px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 50px;
+
+        .left {
+            background-color: white;
+            border-radius: 20px;
+            padding: 50px;
+
+            h1 {
+                margin-top: 0;
+                text-align: center;
+                font-weight: 500;
+            }
+
+            .category {
+                background-color: #74b9ff;
+                color: white;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            .profile {
+                background-color: white;
+                padding: 30px;
+                border-radius: 20px;
+                margin-bottom: 30px;
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+
+                .name {
+                    margin-top: 10px;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+
+                .email {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    font-weight: 450;
+                }
+            }
+
+            .login {
+                padding: 25px;
+                border: 2px solid #D9D9D9;
+                border-radius: 10px;
+
+
+                div {
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 550;
+                    text-align: center;
+                    padding: 10px;
+                    color: white;
+                    border-radius: 20px;
+                }
+
+                .google {
+                    margin-top: 10px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .home {
+
+        .wrapper {
+            padding: 15px;
+            grid-template-columns: 1fr;
+
+            .left {
+                padding: 20px;
+            }
+
+            .right {
+                
+            }
+        }
+    }
+}
